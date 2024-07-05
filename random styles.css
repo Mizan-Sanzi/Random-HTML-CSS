@@ -1,0 +1,13 @@
+h1 {
+    background-color: rgb(144, 141, 146);
+}
+
+.image_box {
+    background-color: red;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.image_box img {
+    width: 100%;
+}

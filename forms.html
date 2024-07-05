@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="./random.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Forms</h1>
+    <p class="head">The best known form on the web is probably the search box of Google's homepage.</p> <hr>
+    
+    <div class="image_box">
+      <img src="Images/googlesearch.jpg" alt="google search box"  class="image">
+    </div>
+    <h3>Types of form</h3> <hr>
+    <form action="http://www.example.com/subscribe.php" method="get"></form>
+    <!-- <p>This is where the form controls will appear.</p> -->
+    <!-- <input type="text" name="username" size="15" maxlength="30"> -->
+    <!-- <input type="image" name="image"> -->
+     <!-- <input type="url" name="none"> -->
+      <!--Form-1 -->
+      <p class="sub-head">1. This is <b>Text Input</b> form</p>
+      <p>Enter Your Name Here:
+        <input type="text" size="15" maxlength="30">
+      </p> <hr>
+      <!-- Form-2 -->
+     <p class="sub-head">2. This is <b>Password Input</b> form</p> 
+     <p>username:
+        <input type="text" name="username" size="15" maxlength="15">
+      </p>
+      <p>password:
+        <input type="password" name="password" size="15" maxlength="20">
+      </p> <hr>
+      <!-- Form-3 -->
+      <p class="sub-head">3. This is <b>Text Area</b> form</p>
+      <p> 
+        <textarea name="comments" cols="20" rows="4">Enter Your Comments Here:textarea element is for multi-line text input</textarea>
+      </p> <hr>
+      <!-- Form-4 -->
+       <p class="sub-head">4. This is <b>Radio Button</b> form</p>
+       <p>Check your favorite color name:<br>
+        <input type="radio" name="color" value="Red" checked="checked">Red
+        <input type="radio" name="color" value="Green" checked="checked">Green
+        <input type="radio" name="color" value="Blue" checked="checked">Blue
+       </p><hr>
+       <!-- Form-5 -->
+        <p class="sub-head">5. This is <b>Checkbox</b> form</p>
+        <p>Check what is your favorite meat:<br>
+            <input type="checkbox" name="food" value="Beef" checked="checked">Beef
+            <input type="checkbox" name="food" value="Mutton" checked="checked">Mutton
+            <input type="checkbox" name="food" value="Chicken" checked="checked">Chicken
+        </p><hr>
+        <p class="sub-head">5. This is <b>Drop Down List Box</b> form</p>
+        <p>What device do use most?:<br>
+            <select name="device">
+              <option value="Mobile">Mobile</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Computer">Computer</option>
+            </select>
+        </p> <hr>
+</body>
+</html>
